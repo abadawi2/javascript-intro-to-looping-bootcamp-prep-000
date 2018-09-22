@@ -9,23 +9,4 @@ function forLoop(array){
   return array;
 }
 
-function whileLoop(number) {
-  while (number > 0) {
-  console.log(--number);
-}
-  return 'done'
-}
 
-function doWhileLoop(array) {
-  var i = 0;
-  function incrementVariable() {
-  i = i + 1;
-}
-do {
-    console.log(--array.length);
-    incrementVariable();
-  }
-  while
-  (array.length >0<5 && incrementVariable());
-  return array
-}
