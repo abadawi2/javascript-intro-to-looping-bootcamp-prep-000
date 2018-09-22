@@ -26,6 +26,6 @@ do {
     incrementVariable();
   }
   while
-  (array.length = 0 && incrementVariable());
+  (array.length >0<5 && incrementVariable());
   return array
 }
