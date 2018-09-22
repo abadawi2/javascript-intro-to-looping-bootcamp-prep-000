@@ -18,7 +18,8 @@ function whileLoop(number) {
 
 function doWhileLoop(array) {
   do {
-    console.log(--array.length)
+    console.log(--array.length);
+    incrementVariable();
   }
   while array.length = 0 && incrementVariable();
   return array
